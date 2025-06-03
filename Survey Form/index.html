@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="name">Name</label>
+            <input class="input-area" type="text" placeholder="Enter your name">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input class="input-area" type="email" placeholder="Enter your email">
+        </div>
+
+        <div>
+            <Label for="age"> Age</Label>
+            <input class="input-area" type="number" placeholder="Enter your age">
+        </div>
+        <div>
+            <label for="role" placeholder="Student"> Which option best describes you?</label>
+            <select class="input-area">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="feedback">Would you recommend GeeksforGeeks to a friend</label>
+            <div>
+                <label class="radio-input">
+                    <input type="radio" value="yes"> Yes
+                </label>
+                <label class="radio-input">
+                    <input type="radio" value="no"> No
+                </label>
+                <label class="radio-input">
+                    <input type="radio" value="maybe"> Maybe
+                </label>
+
+
+
+
+            </div>
+
+        </div>
+
+        <div>
+            <label for "language"> Language and Frameworks Known
+                <small>(Check all that apply)</small>
+            </label>
+
+
+            <label class="radio-input">
+                <input type="checkbox" value="c"> C
+            </label>
+
+            <label class="radio-input">
+                <input type="checkbox" value="c++"> C++
+            </label>
+
+            <label class="radio-input">
+                <input type="checkbox" value="java"> Java
+            </label>
+
+            <label class="radio-input">
+                <input type="checkbox" value="python"> Python
+            </label>
+
+            <label class="radio-input">
+                <input type="checkbox" value="javascript"> JavaScript
+            </label>
+
+            <label class="radio-input">
+                <input type="checkbox" value="html"> HTML
+            </label>
+
+            <label class="radio-input">
+                <input type="checkbox" value="css"> CSS
+            </label>
+
+            <label class="radio-input">
+                <input type="checkbox" value="other"> Other
+            </label>
+
+        </div>
+        <div>
+            <label for="comments"> Any Comments or Suggestions</label>
+            <textarea placeholder="Enter your comment here"></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
